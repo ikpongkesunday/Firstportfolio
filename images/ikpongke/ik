@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-sm bg-white navbar-white">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"> <img src="images/clothe001.jpg" class="rounded-circle" width="100px" height="50px"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse " id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="html form 22.html"><b>Home</b></a>
+				</li>
+				
+				<li class="nav-item">
+				   <a class="nav-link" href="#"><b>AboutUs</b></a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#"><b>Services </b></a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#"><b>Gallery</b></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><b>Shipping</b></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<form class="d-flex">
+		<input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+		<button class="btn btn-outline-sucess" type="submit">Search</button>
+	</form>
+  </nav>
+</head>

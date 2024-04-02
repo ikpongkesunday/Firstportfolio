@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery.js"></script>
+    <script>
+$("p").on({
+     mouseenter: function(){
+        $(this).css("background-color", "lightgray");
+     },
+     mouseleave: function(){
+        $(this).css("background-color", "lightblue");
+    },
+    click: function(){
+         $(this).css("background-color", "yellow");
+    }
+});
+</script>
+</head>
+<body>
+    <p>This is my paragraph</p>
+</body>
+<html>
+
+
+

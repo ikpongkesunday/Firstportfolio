@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> BOOTSTRAP SLIDE </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdlivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"rel="stylesheet">
+    <script src="https://cdn.jsdlivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <form action="/AboutUs 555.html" class="needs-validation novalidate">
+        <div class="form-group">
+            <label for="uname">Username:</label><br>
+            <input type="text" class="form-control" id="uname" placeholder="Enter Username" name="uname"
+            required>
+            <div class="valid-feedback"></div><br>
+            <div class="invalid-feedback"></div>
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label><br>
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd"
+            required>
+            <div class="valid-feedback"></div>
+            <div class="invald-feedback"></div><br>
+        </div>
+        <div class="form-group">
+            <label for="Email">EMAIL:</label><br>
+            <input type="text" class="form-control" id="email" placeholder="Enter email" name="email"
+            required>
+            <div class="valid-feedback"></div>
+            <div class="invald-feedback"></div><br>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember" required>I agree on blable.
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback"></div>
+            </label>
+        </div><br>
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    <script>
+        //Disable form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                //Get the forms we want to add validation styles to 
+                var forms = document.getElementsByClassName('needs-validation');
+                //Loop over them and prevent submission
+                var validation=Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkvalidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagagation();
+                        }
+                        form.classList.add("was-validated");
+                        false);
+                    },
+                });
+                false);
+            },
+            false);
+        },
+    })();
+    </script>
+    <div class="container mt-3">
+        <h2>Textarea</h2>
+        <p>Use the.form control class to style textareas as well:</p>
+        <form action="/AboutUs.html">
+            <div class="mb-3- mt">
+                <label for="comment">Comments:</label>
+                <textarea class="form-control" rows="5" id="comment"
+                name="text"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Comment</button>
+        </form>
+    </div>
+    <div class="container mt-3">
+        <h2>Inline Form</h2>
+        <p>If you want your form element to appear side by side,use.row and.col:</p>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="col"></div>
+                    <input type="password" class="form-control" placeholder="Enter password" name="pswd">
+                </div>
+            </form>
+        </div>
+        <div class="container mt-3">
+            <h2>Form Control</h2>
+            <p>You can change the size of  form.form-control inputs with.form-control-lg or .form-control-sm:</p>
+            <form>
+                <input type="text" class="form-control form-control-lg" placeholder="Large input">
+                <input type="text" class="form-control form mt-3" pattern="Normal input">
+                <input type="text" class="form-control form-control-sm mt-3" placeholder="Small input">
+                </form>
+            </div>
+</body>
+</html>

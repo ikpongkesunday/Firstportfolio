@@ -1,0 +1,24 @@
+
+#box1{
+  width: 400px;
+  height: 400px;
+    background-color:black;
+    position: sticky;
+    text-align: center;
+    color: white;
+    
+
+}
+#box2{
+    width: 200px;
+    height: 200px;
+      background-color:royalblue;
+      position: absolute;
+      top: 150px;
+      left: 150px;
+      overflow: scroll;
+      margin-top: 0px;
+
+    
+  }
+  
