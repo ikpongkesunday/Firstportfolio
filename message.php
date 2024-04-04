@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
     if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
+        echo "Message sent successfully";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
