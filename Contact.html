@@ -91,7 +91,7 @@
 			<br>
 			<div class="colorlib-footer">
 				<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-			  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank">Colorlib</a>
+			  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="icon-heart" aria-hidden="true"></i> </a>
 				<ul>
 					<li><a href="facebook.com/prohttps://www.file.php?id=100089029015420"><i class="icon-facebook"></i></a></li>
 					<li><a href="https://twitter.com/ikpongke273100/"><i class="icon-twitter"></i></a></li>
@@ -140,46 +140,20 @@
 				</div>
 				<div class="row block-9">
 				  <div class="col-md-6 order-md-last pr-md-5">
-					<form action="message.php" method="post">
+					<form id="contactForm" method="post" action="mailto:excelw17@gmail.com" enctype="text/plain">
 						<div class="form-group">
-						  <label for="name" style="color: #ff8A00;"><b>Name</b></label>
-						  <input
-							type="text"
-							class="form-control"
-							  id="name"
-							name="name"
-						  />
+						  <label for="name" style="color: #ff8A00;"><b>Name:</b></label>
+						  <input type="text" class="form-control" id="name" name="name" required>
 						</div>
 						<div class="form-group">
-						  <label for="email" style="color: #ff8A00;"><b>Email</b></label>
-						  <input
-							type="text"
-							class="form-control"
-							id="email"
-							name="email"
-						  />
-						</div>
-						 
-						<div class="form-group">
-						  <label for="subject" style="color: #ff8A00;">subject</label>
-						  <input
-							type="text"
-							class="form-control"
-							id="subject"
-							name="subject"
-						  />
+						  <label for="email" style="color: #ff8A00;"><b>Email:</b></label>
+						  <input type="email" class="form-control" id="email" name="email" required>
 						</div>
 						<div class="form-group">
-						  <label for="message" style="color: #ff8A00;">Message</label>
-						  <input
-							type="text"
-							class="form-control"
-							id="message"
-							name="message"
-						  />
+						  <label for="message" style="color: #ff8A00;"><b>Message:</b></label>
+						  <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
 						</div>
-						
-						<input type="submit" class="btn btn-primary" />
+						<button type="submit" class="btn btn-primary">Submit</button>
 					  </form>
 				  </div>
 	
